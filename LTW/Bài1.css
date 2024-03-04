@@ -1,0 +1,29 @@
+body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+                   padding: 10px 250px;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 10px;
+        }
+        .button {
+            padding: 15px 20px;
+            background-color: #242627;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80px;
+            height: 80px;
+        }
+       p {
+            color: gray;
+        }

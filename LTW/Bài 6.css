@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("https://cdn.glitch.global/c1a6cc25-29e2-4ab6-91aa-4b82c673ce3e/z5212195134839_1a10992b41e8fdecfd1112020dd2e88c.jpg?v=1709441171270");
+    background-size: cover;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 100px;
+  display: flex;
+  justify-content: center;
+
+}
+img {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 50px;
+}
+p {
+  font-size: 16px;
+  text-align: center;
+  color: yellow;
+}
+
