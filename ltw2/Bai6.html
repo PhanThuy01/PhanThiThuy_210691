@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bài 6</title>
+    <style>
+      body {
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: lavenderblush;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #444444;
+}
+
+p {
+    text-align: center;
+    color: #777777;
+    margin-bottom: 50px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+}
+      
+button {
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background-color: paleturquoise;
+    color: #222222;
+}
+      
+.links {
+    text-align: center;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+   </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form action="#">
+                <h2>Log In</h2>
+                <p>Login here using your username and password</p>
+                <div>
+                    <input type="text" id="username" name="username" placeholder="UserName">
+                    <input type="password" id="password" name="password" placeholder="Password">
+                </div>
+                <div class="button-group">
+                    <button>Log In</button>
+                </div>
+                <div class="links">
+                    <a>Forgot Password</a>
+                    <button>Sign up</button>
+              </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+

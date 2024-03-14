@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #766f6f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    margin-left: -8%;
+}
+
+h2 {
+    margin-left: ;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #625f5f;
+}
+
+.password-toggle {
+    cursor: pointer;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative; /* Đặt button trong ngữ cảnh của container */
+    top: -110px; /* Di chuyển button lên phía trên 50px */
+    transform: rotate(-90deg);
+    height: 30%;
+    width: 60%;
+    margin-left: 79%;
+}
+
+input{
+    color: #625f5f;
+}
+
+i {
+    margin-left: -20px;
+}
+button i{
+    margin-right: -5%;
+    margin-right: -20%;
+    transform: rotate(90deg);
+}
