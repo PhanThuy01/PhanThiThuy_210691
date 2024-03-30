@@ -1,0 +1,27 @@
+.clock {
+  width: 200px;
+  height: 100px;
+  background-color: black;
+  border-radius: 10px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.time {
+  padding: 20px;
+}
+
+.hour,
+.ampm,
+.minute,
+.second {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+
+.ampm {
+  font-size: 24px;
+  font-weight: normal;
+  color: white;
+}
