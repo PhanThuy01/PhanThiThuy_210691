@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-NhjoVi9QysvS9g5tWYjgWRsMENqQNU5nJlMWBj/h70vQcZ0qwoQf3br4WGBZwEuL0V5mmIc8fifMX8UydmP0mA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container">
+    
+    <form action="#" class="form">
+        <h1>Login</h1>
+        <p>Login here using username and password</p>
+        <div class="form__field">
+            <i class="fas fa-user"></i>
+            <input type="text" id="username" name="username" placeholder="username" required>
+        </div>
+        <div class="form__field">
+
+            <i class="fas fa-key"></i>
+            <input type="password" id="password" name="password" placeholder="password" required>
+            <i class=" fas fa-eye" style="margin-left: 300px;"></i>
+        </div>
+      
+        <div class="form__field">
+            <input type="submit" value="Login">
+        </div>
+        <div class="form__actions">
+            <button class="signup">Sign Up</button>
+            <a href="#" class="forgot-password">Forgot Password</a>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
+<style>
+    p{
+      font-size: 10px;
+      text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+ 
+
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}.form__field {
+    position: relative;
+}
+
+.form__field input[type="text"]{
+    padding-right: 10px; 
+    
+}
+.form__field input[type="password"] {
+    padding-right: 10px; 
+}
+
+.form__field i.fas {
+    position: absolute;
+    left: -20px; /* Điều chỉnh vị trí biểu tượng sang phải */
+    top: 50%; /* Điều chỉnh vị trí dọc giữa input */
+    transform: translateY(-50%); /* Điều chỉnh vị trí dọc giữa input */
+}
+
+
+.form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 300px;
+}
+
+.form__field {
+    margin-bottom: 20px;
+}
+
+
+.form__field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form__field input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.form__field input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.form__actions {
+    text-align: center;
+}
+
+.form__actions a.forgot-password {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px; /* Thêm margin phía bên phải để tạo khoảng cách giữa nút và "Forgot Password" */
+    float: left; /* Di chuyển "Forgot Password" sang trái */
+}
+
+.form__actions button.signup {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: right;
+    float: right; /* Di chuyển "Sign Up" sang phải */
+}
+
+
+.form__actions button.signup:hover {
+    background-color: #218838;
+}
+
+
+
+.form__actions a.forgot-password:hover {
+    text-decoration: underline;
+}
+
+</style>
